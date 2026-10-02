@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-10-02T10:30:56.181054+00:00",
+  "environment": {
+    "hostname": "ip-10-0-10-245",
+    "python": "3.10.12",
+    "lightgbm": "4.7.0",
+    "cpu_count": 2
+  },
+  "dataset": {
+    "path": "/home/ubuntu/ml-benchmark/creditcard.csv",
+    "rows": 284807,
+    "features": 30,
+    "fraud_ratio": 0.001727485630620034,
+    "train_rows": 199364,
+    "val_rows": 28481,
+    "test_rows": 56962
+  },
+  "load_time_s": 1.0275,
+  "train_time_s": 2.5257,
+  "best_iteration": 49,
+  "metrics": {
+    "auc_roc": 0.975335,
+    "accuracy": 0.999544,
+    "f1_score": 0.853933,
+    "precision": 0.95,
+    "recall": 0.77551
+  },
+  "inference": {
+    "latency_1_row_ms": 0.5979,
+    "batch_1000_rows_ms": 1.9259,
+    "throughput_rows_per_s": 519243.4
+  }
+}
